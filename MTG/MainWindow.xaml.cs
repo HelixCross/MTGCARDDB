@@ -22,7 +22,7 @@ namespace MTG
 	/// [+Done+] Features to add: If you save the same data the program must inform the user that this card exists and the program must not save the second entry of the same card.
 	/// [+Done+] Features to add: Add a total card count to the bottom of the program.
 	/// [+Done+] Features to add: Add a message box to confirm deletion of a card.
-	/// [+Done+] Featrues to add: In the save button, if any of the fields are empty or the wrong data type, the program must inform the user that all fields must be filled in or the user used the wrond data type.
+	/// [+Done+] Features to add: In the save button, if any of the fields are empty or the wrong data type, the program must inform the user that all fields must be filled in or the user used the wrond data type.
 	public class Card
     {
         public int Id { get; set; }
@@ -37,7 +37,15 @@ namespace MTG
 	public partial class MainWindow : Window
     {
 
-		private string dbPath = "Data Source=\"C:\\Users\\Hetze\\source\\repos\\MTGCARDDB\\MTG\\DataBase\\Deck.db\";Version=3;";
+		//private string dbPath = "Data Source=\"C:\\Users\\Hetze\\source\\repos\\MTGCARDDB\\MTG\\DataBase\\Deck.db\";Version=3;";
+
+		private readonly string dbPath =
+	$"Data Source={System.IO.Path.Combine(
+		AppDomain.CurrentDomain.BaseDirectory,
+		"DataBase",
+		"Deck.db"
+	)};Version=3;";
+
 
 
 		private int selectedCardId = -1;
