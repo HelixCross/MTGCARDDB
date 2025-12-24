@@ -1,1 +1,2 @@
-# MTGCARDDB
+# MTGCARDDB Simple IMS
+
