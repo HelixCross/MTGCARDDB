@@ -413,8 +413,8 @@ namespace MTG
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-            // Crate the settings window
-            //SettingsWindow settingsWindow = new SettingsWindow();
+            //This is the update button that will use the velopack updater
+            
 		}
 	} // <-- This closes MainWindow class
 } // <-- This closes namespace MTG

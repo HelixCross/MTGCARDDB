@@ -84,7 +84,7 @@
                 <TextBlock x:Name="lblTotalCards" Text="Ready" VerticalAlignment="Center"/>
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right">
-                <Button Content="Settings" Style="{StaticResource ModernButton}" Width="80"  Height="30" Click="Button_Click"/>
+                <Button Content="Update" Style="{StaticResource ModernButton}" Width="80"  Height="30" Click="Button_Click"/>
             </StatusBarItem>
         </StatusBar>
 
