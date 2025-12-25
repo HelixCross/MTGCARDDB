@@ -350,7 +350,7 @@ namespace MTG
 
         private void Click_Help(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("MTG Card Manager\nVersion 1.0\nDeveloped by Hetzer", "About", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("MTG Card Manager\nVersion 1.0.3\nDeveloped by Hetzer\nThis Application Does not require installation", "About", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void Click_Search(object sender, RoutedEventArgs e)
