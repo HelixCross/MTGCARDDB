@@ -414,7 +414,7 @@ namespace MTG
             lblTotalCards.Text = $"Total Cards: {totalCards}";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Update_Click(object sender, RoutedEventArgs e)
         {
             //This is the update button that will use the velopack updater
             Click_CheckForUpdates(sender, e);
